@@ -1,3 +1,2 @@
 Hi this is my first file to check github
-i think it
-will be good
+i changed this to see HEAD command
