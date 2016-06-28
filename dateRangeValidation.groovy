@@ -35,6 +35,9 @@ def  validate = {dateRange ->
     
   
        // def dateClass = new DateValidation();
-       def dateClass=validate("2016/06/25-2016/06/28");
+	   def readln = javax.swing.JOptionPane.&showInputDialog
+       def input = readln 'Please enter a date range'
+	   def dateClass=validate("$input");
+      // def dateClass=validate("2016/06/25-2016/06/28");
     
     
