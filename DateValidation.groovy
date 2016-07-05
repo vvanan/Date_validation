@@ -25,8 +25,9 @@ class DateValidation {
        
        def fromDate = new Date().parse("yyyyMMdd", from)
        def toDate = new Date().parse("yyyyMMdd", to)
-       assert fromDate.compareTo(toDate) <= 0 : " From date should be less than or equal to To date" 
+       assert fromDate<=(toDate) : " From date should be less than or equal to To date" 
        println " date Range is valid " 
+	   println " date Range is valid.. " 
        
   }
    
